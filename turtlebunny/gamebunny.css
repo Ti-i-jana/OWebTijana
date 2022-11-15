@@ -1,0 +1,85 @@
+.counter{
+font-size:30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: bold;
+color:gray;
+
+}
+
+.timer{
+position:absolute;
+bottom: 40px;
+right:20px;
+
+
+
+}
+.track{
+    width:100%;
+    height: 175px;
+    position: absolute;
+    top:175px;
+    /* margin: 20px; */
+    border: 2px solid rgb(1, 75, 20);
+background:rgb(110, 214, 110);
+
+
+
+
+
+}
+
+body{
+background:linear-gradient(to bottom right,rgb(98, 214, 98),rgb(235, 235, 92));
+
+
+
+}
+
+.firstpole{
+
+
+position:relative;
+top:37px;
+
+
+}
+
+.sqr{
+
+    height:75px;
+    width:75px;
+    vertical-align:middle;
+
+    background:yellow;
+
+}
+
+.child{
+    height:50px;
+    width: 19px;
+    float: left;
+    top:25px;
+    margin-top: 62px;
+
+/*     
+    background: rgb(154, 221, 100);
+    border: black; */
+}
+.child2{
+
+    height:50px;
+    width: 19px;
+    margin-top: 62px;
+    float: left;
+    background: rgb(60, 165, 95);
+    /* border: black; */
+
+}
+.startno{
+
+    position: inherit;
+    bottom:0px;
+
+
+}
