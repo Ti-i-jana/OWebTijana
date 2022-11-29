@@ -28,6 +28,7 @@ var textar=document.getElementById("addcomm");
 var glaven=document.getElementById("commcontainer");
 newl.innerHTML="Submitted:"+curr.getHours()+":"+curr.getMinutes()+":"+curr.getSeconds()+", "+curr.getMonth()+"/"+curr.getDate()+"/"+curr.getFullYear();
 newc.innerHTML=textar.value;
+textar.value="";
 newd.appendChild(newc);
 newd.appendChild(newl);
 glaven.appendChild(newd);

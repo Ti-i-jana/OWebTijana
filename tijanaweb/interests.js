@@ -33,11 +33,14 @@ var novbr=document.createElement("br");
 var novlabel=document.createElement("label");
 novlabel.innerHTML="New Post";
 novlabel.classList.add("addnewpost");
+
+novlabel.setAttribute("id","addnewpost");
+novddiv.setAttribute("id","addpost");
+novlabel.addEventListener("click",addnew);
 novddiv.appendChild(novta);
 novddiv.appendChild(novbr);
 novddiv.appendChild(novlabel);
 glavendiv.appendChild(novddiv);
-
 
 
 
